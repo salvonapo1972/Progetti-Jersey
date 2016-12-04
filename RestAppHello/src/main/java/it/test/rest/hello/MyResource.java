@@ -23,7 +23,7 @@ public class MyResource {
 	    public Response defaultReverser() throws JsonException {
 	 
 	        StringBuilder sb = new StringBuilder();
-	        sb.append("ANKARA");
+	        sb.append("ANKAR");
 	 
 	        JSONObject jsonObject = new JSONObject();
 	        jsonObject.put("original", sb.toString());
